@@ -1,0 +1,54 @@
+.followContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.idContainer{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    font-size: 3vh;
+}
+
+.icoContainer{
+    width: 50%;
+    height: inherit;
+}
+
+.icoContainer ul{
+    list-style: none;
+}
+
+.icoContainer ul li a {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    text-decoration: none;
+    color: white;
+}
+
+.icoContainer ul li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.icoContainer ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.icoContainer ul li a img{
+    padding: 4%;
+}
+
+.line{
+    width: 0;
+    height: 70%;
+    border: solid white 0.5px
+}
