@@ -13,16 +13,16 @@ export const Social = () => {
   };
   return (
     <div className="followContainer">
-      <div className="idContainer">
+      {/* <div className="idContainer">
         Síga nuestros canales
-      </div>
+      </div> */}
       <div className="icoContainer">
         <ul>
           {Object.entries(links).map(([key, value]) => (
             <li key={key}>
               <a href={value.link} target="_blanck" className="linkSocial">
                 <img src={value.ico} alt={key} width={"50px"} className="ico" />
-                {/* <div className="name">  {key}</div> */}
+                <div className="name">      {key}</div>
               </a>
             </li>
           ))}

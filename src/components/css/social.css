@@ -23,6 +23,7 @@
 
 .icoContainer ul{
     list-style: none;
+    transform: translate(-50%);
 }
 
 .icoContainer ul li a {
